@@ -47,7 +47,7 @@ class NoBullNews(toga.App):
         self.news_box.refresh()  # Force UI update
 
         category = self.category_picker.value if widget else 'general'
-        location = the.location_picker.value if widget else 'World'
+        location = self.location_picker.value if widget else 'World'
         filter_mode = self.filter_picker.value if widget else 'All News'
         article_count = int(self.count_picker.value) if self.count_picker.value else 10
         
