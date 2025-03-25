@@ -72,3 +72,24 @@ dist/
 
 # Ignore VS Code settings
 .vscode/
+
+# Briefcase build artifacts
+build/
+dist/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Editor temp files
+*.swp
+*~
+
+# PyInstaller artifacts (if you used it)
+*.spec
